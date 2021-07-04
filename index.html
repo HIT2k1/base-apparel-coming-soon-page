@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+
+</head>
+<body>
+    <main>
+        <section class="shop">
+            <img src="./images/bg-pattern-desktop.svg" alt="" class="pattern">
+            <div class="logo">
+                <div class="container">
+                    <img src="./images/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="product">
+                <img src="./images/hero-mobile.jpg" alt="">
+            </div>
+            <div class="detail">
+                <div class="container">
+                    <div class="detail-content">
+                        <h2 class="title">
+                            <span>WE'RE</span>
+                            <span>COMING SOON</span>
+                        </h2>
+                        <p class="desc">
+                            Hello fellow shoppers! We're currently building our new fashion store. 
+                            Add your email below to stay up-to-date with announcements and our launch deals.
+                        </p>
+                        <form id="form">
+                            <input type="text" placeholder="Email Address" class='email'>
+                            <img src="./images/icon-error.svg" alt="" class="error-icon">
+                            <button class="submit-btn">
+                                <img src="./images/icon-arrow.svg" alt="">
+                            </button>
+                            <div id="error"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
